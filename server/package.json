@@ -1,0 +1,33 @@
+{
+  "name": "dna-analyzer-server",
+  "version": "1.0.0",
+  "description": "Server using Express and Mongo DB Atlas that analyzes dna sequences.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seiyadev/dna-analyzer.git"
+  },
+  "keywords": [
+    "dna",
+    "analyzer"
+  ],
+  "author": "seiyadev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seiyadev/dna-analyzer/issues"
+  },
+  "homepage": "https://github.com/seiyadev/dna-analyzer#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.5.3",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.0.1"
+  }
+}
