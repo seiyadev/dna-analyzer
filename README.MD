@@ -24,7 +24,7 @@ Necesitas tener instalado Node.js > 16
 
 El servidor backend se encuentra en un hosting de Fly.io -> https://dna-analyzer-api.fly.dev, por lo que no es necesario ejecutarlo, pero si quieres probarlo de forma local sigue los siguientes pasos:
 
-1. Abre una terminal dentro de la carpeta "client" y ejecuta:
+1. Abre una terminal dentro de la carpeta "server" y ejecuta:
    ```sh
    npm install
    npm start
